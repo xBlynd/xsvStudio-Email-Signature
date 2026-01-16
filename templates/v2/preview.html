@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xsvStudio Email Signatures v2.0 - Preview Gallery</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Arial, sans-serif;
+            background: #0a0c10;
+            color: #ffffff;
+            padding: 60px 20px;
+        }
+        .container { max-width: 1600px; margin: 0 auto; }
+        .header {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: -2px;
+            background: linear-gradient(135deg, #8b9dc3 0%, #5c5edc 50%, #ff6b6b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #b0b0b0;
+            margin-bottom: 10px;
+        }
+        .version {
+            display: inline-block;
+            padding: 8px 18px;
+            background: rgba(92, 94, 220, 0.15);
+            border: 1px solid rgba(92, 94, 220, 0.3);
+            border-radius: 25px;
+            font-size: 14px;
+            color: #5c5edc;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 15px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+            gap: 50px;
+            margin-bottom: 80px;
+        }
+        .card {
+            background: #13151a;
+            border-radius: 16px;
+            padding: 35px;
+            border: 1px solid #1f2128;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 48px rgba(92, 94, 220, 0.2);
+            border-color: #5c5edc;
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #1f2128;
+        }
+        .card-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.5px;
+        }
+        .badge {
+            font-size: 11px;
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+        .badge-online {
+            background: linear-gradient(135deg, #5c5edc 0%, #8b9dc3 100%);
+            color: #fff;
+            box-shadow: 0 4px 12px rgba(92, 94, 220, 0.3);
+        }
+        .badge-offline {
+            background: #2a2d35;
+            color: #b0b0b0;
+            border: 1px solid #3a3d45;
+        }
+        .signature-preview {
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 12px;
+            border: 2px solid #e8e8e8;
+            min-height: 280px;
+        }
+        .instructions {
+            background: #13151a;
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid #1f2128;
+            margin-top: 60px;
+        }
+        .instructions h2 {
+            color: #5c5edc;
+            font-size: 32px;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+        .instructions ol {
+            margin-left: 25px;
+            line-height: 2;
+            font-size: 16px;
+            color: #d0d0d0;
+        }
+        .instructions code {
+            background: #0a0c10;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            color: #ff6b6b;
+            font-size: 14px;
+            border: 1px solid #1f2128;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .feature {
+            background: #0a0c10;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #1f2128;
+        }
+        .feature h4 {
+            color: #5c5edc;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .feature p {
+            color: #b0b0b0;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>xsvStudio Email Signatures</h1>
+            <p class="subtitle">Award-Winning Design System</p>
+            <span class="version">v2.0 - Production Ready</span>
+        </div>
+
+        <div class="grid">
+            <!-- EXECUTIVE ONLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Executive</h2>
+                    <span class="badge badge-online">Online</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="executive-online.html" width="100%" height="260" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+
+            <!-- EXECUTIVE OFFLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Executive</h2>
+                    <span class="badge badge-offline">Offline</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="executive-offline.html" width="100%" height="260" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+
+            <!-- DIVISION ONLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Division (Healthcare)</h2>
+                    <span class="badge badge-online">Online</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="division-online.html" width="100%" height="280" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+
+            <!-- DIVISION OFFLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Division (Healthcare)</h2>
+                    <span class="badge badge-offline">Offline</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="division-offline.html" width="100%" height="280" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+
+            <!-- STANDARD ONLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Standard Team</h2>
+                    <span class="badge badge-online">Online</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="standard-online.html" width="100%" height="240" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+
+            <!-- STANDARD OFFLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Standard Team</h2>
+                    <span class="badge badge-offline">Offline</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="standard-offline.html" width="100%" height="240" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h2>🚀 What's New in v2.0</h2>
+            <div class="features">
+                <div class="feature">
+                    <h4>✅ Fixed Hierarchy</h4>
+                    <p>Name appears FIRST, company logo below (proper email reading order)</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Contact Boxes</h4>
+                    <p>Framed contact info with SVG icons (no emojis, professional design)</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Solutions Evolved Badge</h4>
+                    <p>Division signatures match website hero badge style</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Real Social Logos</h4>
+                    <p>Actual LinkedIn logo in brand colors, not generic boxes</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Gradient Borders</h4>
+                    <p>Profile photos with gradient borders and shadows</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Styled Offline Mode</h4>
+                    <p>No plain text links - styled boxes even when offline</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Tighter Spacing</h4>
+                    <p>More compact, polished layout (no excessive whitespace)</p>
+                </div>
+                <div class="feature">
+                    <h4>✅ Slower Animations</h4>
+                    <p>Logo animation slowed to 1.2s for smoother effect</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 50px;">📦 How to Use (VS Code Live Server)</h2>
+            <ol>
+                <li>Clone the repo: <code>git clone https://github.com/xBlynd/xsvStudio-Email-Signature.git</code></li>
+                <li>Open the <code>templates/v2/</code> folder in VS Code</li>
+                <li>Install "Live Server" extension (if not installed)</li>
+                <li>Right-click <code>preview.html</code> → "Open with Live Server"</li>
+                <li>Browser opens showing all 6 signature variations</li>
+                <li>To test offline mode: disconnect WiFi and refresh page</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
