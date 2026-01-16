@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xsvStudio Email Signatures - Preview Gallery</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Arial, sans-serif;
+            background: #121212;
+            color: #ffffff;
+            padding: 40px 20px;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        h1 .xsv { color: #8b9dc3; }
+        h1 .studio { color: #5c5edc; }
+        h1 .period { color: #ff6b6b; }
+        .subtitle {
+            font-size: 18px;
+            color: #e0e0e0;
+            margin-bottom: 40px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        .card {
+            background: #1a1d29;
+            border-radius: 12px;
+            padding: 30px;
+            border: 1px solid #2a2d3a;
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #2a2d3a;
+        }
+        .card-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #5c5edc;
+        }
+        .badge {
+            font-size: 12px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .badge-online { background: #5c5edc; color: #fff; }
+        .badge-offline { background: #444; color: #e0e0e0; }
+        .signature-preview {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+        .instructions {
+            background: #2a2d3a;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        .instructions h3 {
+            color: #5c5edc;
+            margin-bottom: 15px;
+        }
+        .instructions ol {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        .instructions code {
+            background: #1a1d29;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="xsv">xsv</span><span class="studio">Studio</span><span class="period">.</span> Email Signatures</h1>
+        <p class="subtitle">Award-Winning Design System | 3 Concepts × 2 Modes = 6 Total Variations</p>
+
+        <div class="grid">
+            <!-- CONCEPT 1: EXECUTIVE ONLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Concept 1: Executive</h2>
+                    <span class="badge badge-online">Online</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="executive-online.html" width="100%" height="300" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <!-- CONCEPT 1: EXECUTIVE OFFLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Concept 1: Executive</h2>
+                    <span class="badge badge-offline">Offline</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="executive-offline.html" width="100%" height="300" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <!-- CONCEPT 2: DIVISION ONLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Concept 2: Division</h2>
+                    <span class="badge badge-online">Online</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="division-online.html" width="100%" height="300" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <!-- CONCEPT 2: DIVISION OFFLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Concept 2: Division</h2>
+                    <span class="badge badge-offline">Offline</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="division-offline.html" width="100%" height="300" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <!-- CONCEPT 3: STANDARD ONLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Concept 3: Standard</h2>
+                    <span class="badge badge-online">Online</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="standard-online.html" width="100%" height="300" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <!-- CONCEPT 3: STANDARD OFFLINE -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Concept 3: Standard</h2>
+                    <span class="badge badge-offline">Offline</span>
+                </div>
+                <div class="signature-preview">
+                    <iframe src="standard-offline.html" width="100%" height="300" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3>🚀 How to Use (VS Code Live Server)</h3>
+            <ol>
+                <li>Clone the repo: <code>git clone https://github.com/xBlynd/xsvStudio-Email-Signature.git</code></li>
+                <li>Open the folder in VS Code</li>
+                <li>Install "Live Server" extension (if not installed)</li>
+                <li>Right-click <code>templates/preview.html</code> → "Open with Live Server"</li>
+                <li>Page opens in browser showing all 6 variations</li>
+                <li>To test offline mode: disconnect WiFi and refresh</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
