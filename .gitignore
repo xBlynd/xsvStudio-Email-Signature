@@ -1,0 +1,81 @@
+# Email Signature Project - Git Ignore
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Image optimization temporary files
+*.tmp
+*.bak
+*.backup
+*-original.*
+
+# Design software
+*.psd~
+*.ai~
+*.sketch
+*.xd~
+*.fig
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.test-results/
+screenshots/
+test-emails/
+
+# Build artifacts
+build/
+dist/
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+logs/
+
+# Environment variables (if we use them)
+.env
+.env.local
+.env.*.local
+
+# Node modules (if we use any JS tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Deployment
+deploy.config
+*.key
+*.pem
+
+# Personal notes
+NOTES.md
+TODO.md
+personal/
